@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Strange Signals - Video game PR from the beyond</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo|Archivo+Black|Archivo+Narrow">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <h1 class="logo"><img src="logo.png" alt="Strange Signals"></h1>
+
+  <div class="video-container">
+    <video class="video-background" autoplay muted loop src="video.mp4"></video>
+    <img id="arrow" class="video-arrow" src="arrow.png">
+  </div>
+
+  <div id="content" class="content">
+    <p class="tagline">Video game PR from the beyond</p>
+
+    <img class="eye" src="eye.png">
+
+    <div class="pitch">
+      <p>Strange Signals is a London-based video game PR agency on a mission to amplify the presence of extraordinary, enigmatic and uncanny games.</p>
+      <p>With extensive experience in the industry, our services are fine-tuned to match the distinctive frequency of your game. We specialise in bespoke, accessible and straightforward campaigns that cut through the static and resonate on a global scale.</p>  
+      <p>Whether you are a solo developer or a small indie team, we&apos;re here to be your partner on the road to launch. Join us and together we&apos;ll broadcast strange signals that echo from the far reaches of the beyond.</p>  
+    </div>
+
+    <div class="services">
+      <div class="service">
+        <img class="icon" src="icon-1.png">
+        <h2>Campaign strategy</h2>
+        <p>We&apos;ll work with you to build a bespoke and effective PR strategy that identifies key beats, boosts awareness and cuts through <span class="no-widow">the static.</span></p>
+      </div>
+
+      <div class="service">
+        <img class="icon" src="icon-2.png">
+        <h2>Media &amp; influencer relations</h2>
+        <p>By utilising our robust network of global connections, we&apos;re able to ensure your game&apos;s signal is heard by all the <span class="no-widow">right people.</span></p>
+      </div>
+
+      <div class="service">
+        <img class="icon" src="icon-3.png">
+        <h2>Modular services</h2>
+        <p>We&apos;re on your wavelength, so whether you&apos;re after long term support or just want help boosting a one-off activation, our services are fine-tuned to suit <span class="no-widow">your needs.</span></p>
+      </div>
+    </div>
+
+    <img class="waveform" src="waveform.png">
+
+    <div class="contact">
+      <h2>Make contact</h2>
+      <p><a href="mailto:hello@strangesignals.co.uk">hello@strangesignals.co.uk</a></p>
+    </div>
+  </div>
+  <script>
+    const arrow = document.getElementById('arrow')
+    const content = document.getElementById('content')
+    arrow.addEventListener('click', () => content.scrollIntoView({ behavior: 'smooth' }));
+  </script>
+</body>
+</html>

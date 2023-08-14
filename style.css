@@ -1,0 +1,149 @@
+html, body {
+  margin: 0;
+  color: white;
+  background-color: black;
+}
+
+body {
+  position: relative;
+  padding-bottom: 200px;
+}
+
+.logo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.logo img {
+  display: block;
+  margin: 100px auto;
+  height: 50px;
+}
+
+.video-container {
+  position: relative;
+}
+
+.video-arrow {
+  display: block;
+  position: absolute;
+  left: calc(50% - 20px);
+  width: 25px;
+  bottom: 50px;
+  cursor: pointer;
+}
+
+.video-background {
+  display: block;
+  width: 100%;
+}
+
+a {
+  color: #29a274;
+}
+
+.content {
+  padding: 100px 0;
+}
+
+.tagline {
+  display: block;
+  margin: 0 auto;
+  max-width: 640px;
+  padding: 0 40px;
+  font: italic 48px/1.25 "Archivo Black", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #29a274;
+}
+
+.eye {
+  display: block;
+  margin: 50px auto;
+  max-width: 100px;
+}
+
+.pitch {
+  margin: 0 auto;
+  font: 26px/1.25 "Archivo Narrow", sans-serif;
+  max-width: 640px;
+  padding: 0 40px;
+}
+
+.services {
+  display: flex;
+  margin: 100px auto;
+  color: white;
+  overflow: hidden;
+}
+
+.service {
+  padding: 0 40px;
+  width: calc(100% / 3);
+  text-align: center;
+
+}
+
+.service img {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+.service h2 {
+  font: italic 21px/1.25 "Archivo Black", sans-serif;
+  text-transform: uppercase;
+  color: #29a274;
+}
+
+.service {
+  font: 21px/1.25 "Archivo Narrow", sans-serif;
+}
+
+.waveform {
+  display: block;
+  margin: 50px auto;
+  max-width: 300px;
+}
+
+.contact h2 {
+  font: italic 48px/1.25 "Archivo Black", sans-serif;
+  text-transform: uppercase;
+  color: #29a274;
+}
+
+.contact {
+  font: italic 26px/1.25 "Archivo Narrow", sans-serif;
+  text-align: center;
+}
+
+.contact a {
+  color: white;
+}
+
+.no-widow {
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 960px) {
+  .video-arrow {
+    display: none;
+  }
+
+  .services {
+    display: block;
+  }
+
+  .service {
+    margin: 0 auto;
+    width: auto;
+    max-width: 640px;
+  }
+
+  .tagline,
+  .contact h2 {
+    font-size: 32px;
+  }
+}
