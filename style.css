@@ -41,7 +41,7 @@ body {
 }
 
 a {
-  color: #29a274;
+  color: #55d195;
 }
 
 .content {
@@ -56,7 +56,7 @@ a {
   font: italic 48px/1.25 "Archivo Black", sans-serif;
   text-transform: uppercase;
   text-align: center;
-  color: #29a274;
+  color: #55d195;
 }
 
 .eye {
@@ -95,7 +95,7 @@ a {
 .service h2 {
   font: italic 21px/1.25 "Archivo Black", sans-serif;
   text-transform: uppercase;
-  color: #29a274;
+  color: #55d195;
 }
 
 .service {
@@ -111,7 +111,7 @@ a {
 .contact h2 {
   font: italic 48px/1.25 "Archivo Black", sans-serif;
   text-transform: uppercase;
-  color: #29a274;
+  color: #55d195;
 }
 
 .contact {
@@ -150,7 +150,7 @@ a {
   margin-bottom: 0;
   font: italic 26px/1.25 "Archivo Black", sans-serif;
   text-transform: uppercase;
-  color: #29a274;
+  color: #55d195;
 }
 
 .quotee small {
@@ -170,7 +170,7 @@ a {
 .clients h2 {
   font: italic 21px/1.25 "Archivo Black", sans-serif;
   text-transform: uppercase;
-  color: #29a274;
+  color: #55d195;
 }
 
 .client-logos {
