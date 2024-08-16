@@ -162,6 +162,28 @@ a {
   font: 18px/1.25 "Archivo Narrow", sans-serif;
 }
 
+.clients {
+  margin: 100px auto;
+  text-align: center;
+}
+
+.clients h2 {
+  font: italic 21px/1.25 "Archivo Black", sans-serif;
+  text-transform: uppercase;
+  color: #29a274;
+}
+
+.client-logos {
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.client-logos img {
+  margin: 10px;
+}
+
 @media only screen and (max-width: 960px) {
   .video-arrow {
     display: none;
@@ -180,5 +202,10 @@ a {
   .tagline,
   .contact h2 {
     font-size: 32px;
+  }
+
+  .client-logos img {
+    width: 120px;
+    height: 120px;
   }
 }
