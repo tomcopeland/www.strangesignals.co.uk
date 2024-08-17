@@ -209,3 +209,10 @@ a {
     height: 120px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .client-logos img {
+    width: 100px;
+    height: 100px;
+  }
+}
